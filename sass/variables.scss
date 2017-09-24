@@ -1,0 +1,32 @@
+ //Colors
+ $Dark-blue: #494C62;
+ $Blue-active: #4587C8;
+ $Blue-light: #E9F5FD;
+ $Gray: #BABBC3;
+ $Dark-gray: #80818A;
+ $Red: #f44336;
+ $Rose: #FF0079;
+ $Light-gray: #f8f8f8;
+ //Font-Family
+ $Main-Font: 'Source Sans Pro', sans-serif;
+
+ @mixin font($family-type, $size: 1rem, $weight : normal, $color :  $Dark){
+   font: {
+     family: $family-type;
+     size: $size;
+     weight: $weight;
+   }
+   color: $color;
+ }
+
+ @mixin el($element){
+   &__#{$element}{
+     @content;
+   }
+ }
+
+ @mixin mod($modifier){
+   &--#{$modifier}{
+     @content;
+   }
+ }

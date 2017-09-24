@@ -1,0 +1,11 @@
+@import "normalize";
+@import "breakpoint";
+@import 'variables';
+@import "intro";
+@import "filmSection";
+@import "footer";
+
+//////////////////////////////////// RESPONSE FILES ///////////////////////////////////////////
+@import "response/res-intro";
+@import "response/res-filmSection";
+@import "response/res-footer";

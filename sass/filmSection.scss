@@ -1,0 +1,139 @@
+.filmsSection{
+  background-color: $Light-gray;
+  @include el('topBar'){
+    border-bottom: 2px solid lighten($Gray, 15%);
+    display: flex;
+    justify-content: space-between;
+  }
+  @include el('grid'){
+    display: flex;
+    padding-top:3.2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+  }
+  @include el('sortList'){
+    list-style: none;
+    padding-left:0;
+    display: flex;
+    margin: 0;
+    margin-top: 3.1rem;
+  }
+  @include el('sortItem'){
+    margin-right: 1.2rem;
+    @include mod('active'){
+      border-bottom: 3px $Rose solid;
+      margin-bottom: -2px;
+      a{
+        color: $Rose!important;
+      }
+    }
+    a{
+      @include font($Main-Font, 1.45rem, 300, $Dark-gray);
+      text-decoration: none;
+      padding: 1rem 2.1rem 1.6rem;
+      display: inline-block;
+      letter-spacing: 0.5px;
+      &:hover{
+        color: $Rose;
+      }
+    }
+  }
+  @include el('gridView'){
+    margin-top:4.2rem;
+    list-style: none;
+    display: flex;
+  }
+  @include el('gridViewItem'){
+    margin-right: 1.5rem;
+    font-size:1.7rem;
+    color: $Gray;
+    cursor: pointer;
+    &:last-child{
+      margin-right:0;
+    }
+    &:hover{
+      color: $Rose;
+    }
+    @include mod('active'){
+      color: $Rose;
+      cursor: default;
+    }
+  }
+  @include el('loadMore'){
+    width: 4.5rem;
+    margin: 0 auto;
+  }
+  @include el('loadMoreIcon'){
+    width: 4.5rem;
+  }
+  @include el('loadText'){
+    text-align: center;
+    @include font($Main-Font, 1.2rem, 400, $Gray);
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+    letter-spacing: 1px;
+    padding-bottom: 6rem;
+  }
+}
+
+
+.filmPoster{
+  width: 23%;
+  margin-bottom: 2rem;
+  background-color: white;
+  position: relative;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+  @include el('poster'){
+    position: relative;
+  }
+  @include el('img'){
+    max-width: 100%;
+    &:hover{
+      filter: contrast(112%);
+    }
+  }
+  @include el('year'){
+    @include font($Main-Font, 1.4rem, 300, white);
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    letter-spacing: 1px;
+    opacity: 0.6;
+  }
+
+  @include el('title'){
+    @include font($Main-Font, 1.7rem, 600, $Dark-blue);
+    margin: 1.5rem 0 0.5rem 1.5rem;
+    padding-right:25%;
+    a{
+      text-decoration: none;
+      color: $Dark-blue;
+      &:hover{
+        color: $Rose;
+      }
+    }
+  }
+  @include el('description'){
+    @include font($Main-Font, 1.1rem, 400, $Gray);
+    margin: 0 1.5rem 1rem 1.5rem;
+    padding-right:20%;
+  }
+  @include el('rating'){
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    @include font($Main-Font, 1.2rem, 400, $Rose);
+    span{
+      border: solid 2px $Rose;
+      display: inline-block;
+      padding: 0.4rem 0.73rem;
+      border-radius: 5px;
+    }
+  }
+}
+
+
+
+
+

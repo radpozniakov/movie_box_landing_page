@@ -1,0 +1,89 @@
+@include breakpoint(max-width 1440px){
+  .container{
+    padding: 0 2rem;
+  }
+}
+@include breakpoint(max-width 975px){
+  .movieInformation{
+    @include el('metaList'){
+      margin-bottom: 1rem;
+    }
+    @include el('actions'){
+      order: 2;
+    }
+  }
+  .ratingBar{
+    order: 1;
+  }
+}
+@include breakpoint(max-width 710px){
+  .container{
+    padding: 0 1rem;
+  }
+  .introSection{
+    @include el('bottomBar'){
+      margin-bottom: 0rem;
+    }
+  }
+
+  .mainHeader{
+    flex-direction: column;
+    @include el(logo){
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    @include el(logoSVG){
+      width: 60%;
+      margin-top: 1.5rem;
+    }
+    @include el(userBar){
+      padding-left:0;
+      justify-content: center;
+    }
+    @include el(userBarItem){
+      margin: 0 .5rem;
+      @include mod('signup'){
+        a{
+          @include font($Main-Font, 1rem, 400, white);
+          padding: 0.3rem 0.8rem;
+
+        }
+      }
+    }
+
+  }
+
+  .movieInformation{
+    @include el('title'){
+      @include font($Main-Font, 2.5rem, 400, white);
+      text-align: center;
+    }
+    @include el('metaList'){
+      text-align: center;
+    }
+    @include el('metaListItem'){
+      @include font($Main-Font, 1.2rem, 400, white);
+      margin-right:0.5rem;
+      line-height: 1.7rem;
+    }
+    @include el('actions'){
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+    @include el('actionItem'){
+      text-align: center;
+      &:last-child{
+        display: none;
+      }
+      margin: 1.2rem 0;
+      a{
+        padding: 0.5rem 1rem;
+      }
+    }
+    .ratingBar{
+      display: none;
+    }
+  }
+
+}

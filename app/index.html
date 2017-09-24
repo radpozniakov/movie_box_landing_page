@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>TheMovieBox - homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <section data-bg="img/Header.jpg" class="introSection container">
+        <header class="mainHeader">
+            <div class="mainHeader__logo">
+                <a href="#">
+                      <svg class="mainHeader__logoSVG" viewBox="0 0 375 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g transform="translate(-172.000000, -59.000000)" fill="#fff">
+                                        <g transform="translate(172.000000, 40.000000)">
+                                            <path d="M12.44,60 L17.42,60 L17.42,24.84 L29.36,24.84 L29.36,20.64 L0.5,20.64 L0.5,24.84 L12.44,24.84 L12.44,60 Z M36.08,60 L41.12,60 L41.12,41.46 L59.42,41.46 L59.42,60 L64.4,60 L64.4,20.64 L59.42,20.64 L59.42,37.14 L41.12,37.14 L41.12,20.64 L36.08,20.64 L36.08,60 Z M74.9,60 L98.18,60 L98.18,55.74 L79.94,55.74 L79.94,41.46 L94.82,41.46 L94.82,37.2 L79.94,37.2 L79.94,24.84 L97.58,24.84 L97.58,20.64 L74.9,20.64 L74.9,60 Z M106.22,60 L110.84,60 L110.84,38.34 C110.84,34.86 110.48,30.18 110.24,26.7 L110.48,26.7 L113.6,35.46 L121.16,56.04 L124.04,56.04 L131.6,35.46 L134.72,26.7 L134.96,26.7 C134.72,30.18 134.3,34.86 134.3,38.34 L134.3,60 L139.04,60 L139.04,20.64 L133.16,20.64 L125.6,41.76 L122.84,49.8 L122.6,49.8 L119.78,41.76 L112.16,20.64 L106.22,20.64 L106.22,60 Z M164.12,60.72 C154.22,60.72 147.26,52.8 147.26,40.14 C147.26,27.54 154.22,19.92 164.12,19.92 C173.96,19.92 180.92,27.6 180.92,40.14 C180.92,52.8 173.96,60.72 164.12,60.72 Z M164.12,56.34 C171.14,56.34 175.76,49.98 175.76,40.14 C175.76,30.36 171.14,24.3 164.12,24.3 C157.04,24.3 152.42,30.36 152.42,40.14 C152.42,49.98 157.04,56.34 164.12,56.34 Z M196.28,60 L202.1,60 L214.58,20.64 L209.48,20.64 L203.18,41.88 C201.86,46.56 200.84,50.28 199.4,54.9 L199.16,54.9 C197.72,50.28 196.76,46.56 195.38,41.88 L189.02,20.64 L183.74,20.64 L196.28,60 Z M219.68,60 L224.72,60 L224.72,20.64 L219.68,20.64 L219.68,60 Z M235.16,60 L258.44,60 L258.44,55.74 L240.2,55.74 L240.2,41.46 L255.08,41.46 L255.08,37.2 L240.2,37.2 L240.2,24.84 L257.84,24.84 L257.84,20.64 L235.16,20.64 L235.16,60 Z M265.58,60 L265.58,21 L279.62,21 C287.78,21 294.38,23.04 294.38,30.72 C294.38,34.08 292.46,37.92 287.9,39.12 L287.9,39.36 C293.42,40.44 296.18,43.32 296.18,48.48 C296.18,56.52 289.22,60 280.82,60 L265.58,60 Z M275.9,36.36 L279.38,36.36 C282.74,36.36 284.3,34.68 284.3,32.28 C284.3,29.88 282.74,28.92 279.38,28.92 L275.9,28.92 L275.9,36.36 Z M275.9,52.08 L280.1,52.08 C284.18,52.08 286.1,50.52 286.1,47.64 C286.1,44.76 284.18,43.56 280.1,43.56 L275.9,43.56 L275.9,52.08 Z M318.74,60.72 C307.94,60.72 300.62,53.16 300.62,40.32 C300.62,27.48 307.94,20.28 318.74,20.28 C329.54,20.28 336.86,27.54 336.86,40.32 C336.86,53.16 329.54,60.72 318.74,60.72 Z M318.74,51.84 C323.42,51.84 326.3,47.4 326.3,40.32 C326.3,33.24 323.42,29.16 318.74,29.16 C314.06,29.16 311.18,33.24 311.18,40.32 C311.18,47.4 314.06,51.84 318.74,51.84 Z M340.1,60 L351.14,60 L354.02,53.04 C354.86,51 355.7,48.96 356.54,46.56 L356.78,46.56 C357.74,48.96 358.58,51 359.54,53.04 L362.66,60 L374.18,60 L363.62,40.44 L373.58,21 L362.54,21 L360.26,27.36 C359.54,29.16 358.7,31.32 357.86,33.84 L357.62,33.84 C356.54,31.32 355.7,29.16 354.86,27.36 L352.22,21 L340.7,21 L350.66,39.96 L340.1,60 Z"></path>
+                                        </g>
+                                </g>
+                            </g>
+                    </svg>
+                </a>
+            </div>
+            <ul class="mainHeader__userBar">
+                <li class="mainHeader__userBarItem mainHeader__userBarItem--search">
+                    <a href="#">
+                        <svg class="mainHeader__searchIconSVG" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g transform="translate(-2258.000000, -62.000000)" fill-rule="nonzero">
+                                    <g id="TopMenu" transform="translate(172.000000, 40.000000)">
+                                        <path d="M2099.72721,49.5189091 C2102.90309,49.5189091 2105.90739,48.4180606 2108.31521,46.4052121 L2109.55539,47.6453939 L2109.14315,48.0576364 C2108.92667,48.2741212 2108.80576,48.5666061 2108.80576,48.8717576 C2108.80576,49.1769091 2108.92667,49.4705455 2109.14315,49.6858788 L2118.65121,59.1927879 C2118.87576,59.4173333 2119.17055,59.5301818 2119.46533,59.5301818 C2119.76012,59.5301818 2120.05491,59.4173333 2120.27945,59.1927879 L2122.822,56.6502424 C2123.03848,56.4337576 2123.15939,56.1412727 2123.15939,55.8361212 C2123.15939,55.5309697 2123.03848,55.2373333 2122.822,55.022 L2113.31394,45.5150909 C2112.8637,45.0648485 2112.13594,45.0648485 2111.6857,45.5150909 L2111.18364,46.0171515 L2109.94806,44.7815758 C2112.01273,42.3587879 2113.14582,39.3199394 2113.14582,36.1026061 C2113.14582,32.5190909 2111.75018,29.1497576 2109.2157,26.6152727 C2106.68121,24.0807879 2103.31188,22.6851515 2099.72836,22.6851515 C2096.14485,22.6851515 2092.77552,24.0807879 2090.24218,26.6152727 C2087.7077,29.1497576 2086.31206,32.5179394 2086.31206,36.1026061 C2086.31206,39.6861212 2087.7077,43.0554545 2090.24218,45.5887879 C2092.77436,48.1244242 2096.1437,49.5189091 2099.72721,49.5189091 Z M2120.37848,55.8372727 L2119.46418,56.7504242 L2111.58436,48.8717576 L2112.49867,47.9586061 L2120.37848,55.8372727 Z M2091.86927,28.2446667 C2093.96848,26.1454545 2096.75861,24.9893333 2099.72721,24.9893333 C2102.69582,24.9893333 2105.48709,26.1454545 2107.5863,28.2446667 C2109.68552,30.3438788 2110.84164,33.1351515 2110.84164,36.1037576 C2110.84164,39.0723636 2109.68552,41.8624848 2107.5863,43.961697 C2105.48709,46.0609091 2102.69582,47.2170303 2099.72721,47.2170303 C2096.75861,47.2170303 2093.96848,46.0609091 2091.86927,43.961697 C2089.77006,41.8624848 2088.61394,39.0712121 2088.61394,36.1037576 C2088.61394,33.134 2089.76891,30.3438788 2091.86927,28.2446667 Z"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="mainHeader__userBarItem mainHeader__userBarItem--login">
+                    <a class="#" href="">log in</a>
+                </li>
+
+                <li class="mainHeader__userBarItem mainHeader__userBarItem--signup">
+                    <a class="#" href="">sign up</a>
+                </li>
+            </ul>
+        </header>
+        <div class="introSection__bottomBar">
+
+            <div class="movieInformation">
+                <h1 class="movieInformation__title">wrath of the titans the titans </h1>
+                <ul class="movieInformation__metaList">
+                    <li class="movieInformation__metaListItem">Fantasy</li>
+                    <li class="movieInformation__metaListItem">Animation</li>
+                    <li class="movieInformation__metaListItem">Family</li>
+                    <li class="movieInformation__metaListItem">Duration: 1h 52m</li>
+                </ul>
+
+                <div class="movieInformation__bottomBar">
+                    <ul class="movieInformation__actions">
+                        <li class="movieInformation__actionItem movieInformation__actionItem--accentButton"><a href="">watch movie</a></li>
+                        <li class="movieInformation__actionItem movieInformation__actionItem--infoButton"><a href="">view info</a></li>
+                        <li class="movieInformation__actionItem movieInformation__actionItem--wishList"><a href="">+ add to wishlist</a></li>
+                    </ul>
+                    <div class="ratingBar">
+                        <div>
+                            <h3 class="ratingBar__title">Rating</h3>
+                            <p class="ratingBar__description">based on 3.546 reviews</p>
+                        </div>
+                        <div>
+                            <ul class="ratingBar__starsList">
+                                <li  class="ratingBar__star"><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li  class="ratingBar__star"><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li  class="ratingBar__star"><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li  class="ratingBar__star"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                <li  class="ratingBar__star"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                            </ul>
+                            <div class="ratingBar__counter">3.4</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </section>
+    <main class="filmsSection container">
+        <div class="filmsSection__topBar">
+            <ul class="filmsSection__sortList">
+                <li class="filmsSection__sortItem filmsSection__sortItem--active"><a href="">Trending</a></li>
+                <li class="filmsSection__sortItem"><a href="">Top Rated</a></li>
+                <li class="filmsSection__sortItem"><a href="">New Arrivals</a></li>
+                <li class="filmsSection__sortItem"><a href="">Genre</a></li>
+            </ul>
+
+            <ul class="filmsSection__gridView">
+                <li class="filmsSection__gridViewItem filmsSection__gridViewItem--active"><i class="fa fa-th-large" aria-hidden="true"></i></li>
+                <li class="filmsSection__gridViewItem"><i class="fa fa-align-left" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        <div class="filmsSection__grid">
+
+
+
+
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Logan</a></h3>
+                <p class="filmPoster__description">Action, Adventure, Fantasy</p>
+                <div class="filmPoster__rating"><span>4.0</span></div>
+            </div>
+
+
+
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster2.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">John Wick: Chapter 2</a></h3>
+                <p class="filmPoster__description">Action, Thriller</p>
+                <div class="filmPoster__rating"><span>4.8</span></div>
+            </div>
+
+
+
+
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster3.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Fantastic beasts an…</a></h3>
+                <p class="filmPoster__description">Adventure, Fantasy, Action</p>
+                <div class="filmPoster__rating"><span>4.5</span></div>
+            </div>
+
+
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster4.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Fifty shades darker</a></h3>
+                <p class="filmPoster__description">Drama, Roman</p>
+                <div class="filmPoster__rating"><span>4.6</span></div>
+            </div>
+
+
+
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster5.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Beauty and the Beast</a></h3>
+                <p class="filmPoster__description">Musical, Drama, Fantasy</p>
+                <div class="filmPoster__rating"><span>4.4</span></div>
+            </div>
+
+
+
+
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster6.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Arrival</a></h3>
+                <p class="filmPoster__description">Action, Thriller, Sci-Fi</p>
+                <div class="filmPoster__rating"><span>3.4</span></div>
+            </div>
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster7.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Justice League</a></h3>
+                <p class="filmPoster__description">Adventure, Sci-Fi, Action</p>
+                <div class="filmPoster__rating"><span>3.9</span></div>
+            </div>
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster8.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Pirates of the Caribb…</a></h3>
+                <p class="filmPoster__description">Adventure, Fantasy, Action</p>
+                <div class="filmPoster__rating"><span>4.2</span></div>
+            </div>
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster9.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Wonder Woman</a></h3>
+                <p class="filmPoster__description">Action, Adventure, Sci-Fi</p>
+                <div class="filmPoster__rating"><span>3.8</span></div>
+            </div>
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster10.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Guardians of the Gal…</a></h3>
+                <p class="filmPoster__description">Action, Sci-Fi, Comedy</p>
+                <div class="filmPoster__rating"><span>3.0</span></div>
+            </div>
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster11.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Alien: Covenant</a></h3>
+                <p class="filmPoster__description">Horror, Action, Sci-Fi, Action</p>
+                <div class="filmPoster__rating"><span>4.0</span></div>
+            </div>
+            <div class="filmPoster">
+                <div class="filmPoster__poster">
+                    <a href=""><img class="filmPoster__img" src="img/poster12.jpg" alt=""></a>
+                    <span class="filmPoster__year">2017</span>
+                </div>
+                <h3 class="filmPoster__title"><a href="">Captain Underpant…</a></h3>
+                <p class="filmPoster__description">Animation, Comedy</p>
+                <div class="filmPoster__rating"><span>3.5</span></div>
+            </div>
+        </div>
+        <div class="filmsSection__loadMore">
+            <svg class="filmsSection__loadMoreIcon" width="101px" height="50px" viewBox="0 0 101 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-1390.000000, -4578.000000)" fill="#FF0079">
+                        <g transform="translate(1381.000000, 4578.000000)">
+                            <g transform="translate(9.000000, 0.000000)">
+                                <rect id="Rectangle-13" x="0" y="13" width="10" height="24" rx="5"></rect>
+                                <rect id="Rectangle-13" x="73" y="0" width="10" height="50" rx="5"></rect>
+                                <rect id="Rectangle-13" x="18" y="6" width="10" height="38" rx="5"></rect>
+                                <rect id="Rectangle-13" x="36" y="0" width="10" height="50" rx="5"></rect>
+                                <rect id="Rectangle-13" x="54" y="8" width="10" height="34" rx="5"></rect>
+                                <rect id="Rectangle-13" x="91" y="8" width="10" height="34" rx="5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <p class="filmsSection__loadText">loading</p>
+    </main>
+    <footer class="mainFooter container">
+        <div class="mainFooter__top">
+            <div class="mainFooter__logo">
+                <svg class="mainFooter__logSvg" viewBox="0 0 312 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g transform="translate(-171.000000, -4903.000000)" fill="#494C62">
+                            <g transform="translate(0.000000, 4844.000000)">
+                                <path d="M181.2,93 L185.35,93 L185.35,63.7 L195.3,63.7 L195.3,60.2 L171.25,60.2 L171.25,63.7 L181.2,63.7 L181.2,93 Z M200.9,93 L205.1,93 L205.1,77.55 L220.35,77.55 L220.35,93 L224.5,93 L224.5,60.2 L220.35,60.2 L220.35,73.95 L205.1,73.95 L205.1,60.2 L200.9,60.2 L200.9,93 Z M233.25,93 L252.65,93 L252.65,89.45 L237.45,89.45 L237.45,77.55 L249.85,77.55 L249.85,74 L237.45,74 L237.45,63.7 L252.15,63.7 L252.15,60.2 L233.25,60.2 L233.25,93 Z M259.35,93 L263.2,93 L263.2,74.95 C263.2,72.05 262.9,68.15 262.7,65.25 L262.9,65.25 L265.5,72.55 L271.8,89.7 L274.2,89.7 L280.5,72.55 L283.1,65.25 L283.3,65.25 C283.1,68.15 282.75,72.05 282.75,74.95 L282.75,93 L286.7,93 L286.7,60.2 L281.8,60.2 L275.5,77.8 L273.2,84.5 L273,84.5 L270.65,77.8 L264.3,60.2 L259.35,60.2 L259.35,93 Z M307.6,93.6 C299.35,93.6 293.55,87 293.55,76.45 C293.55,65.95 299.35,59.6 307.6,59.6 C315.8,59.6 321.6,66 321.6,76.45 C321.6,87 315.8,93.6 307.6,93.6 Z M307.6,89.95 C313.45,89.95 317.3,84.65 317.3,76.45 C317.3,68.3 313.45,63.25 307.6,63.25 C301.7,63.25 297.85,68.3 297.85,76.45 C297.85,84.65 301.7,89.95 307.6,89.95 Z M334.4,93 L339.25,93 L349.65,60.2 L345.4,60.2 L340.15,77.9 C339.05,81.8 338.2,84.9 337,88.75 L336.8,88.75 C335.6,84.9 334.8,81.8 333.65,77.9 L328.35,60.2 L323.95,60.2 L334.4,93 Z M353.9,93 L358.1,93 L358.1,60.2 L353.9,60.2 L353.9,93 Z M366.8,93 L386.2,93 L386.2,89.45 L371,89.45 L371,77.55 L383.4,77.55 L383.4,74 L371,74 L371,63.7 L385.7,63.7 L385.7,60.2 L366.8,60.2 L366.8,93 Z M392.15,93 L392.15,60.5 L403.85,60.5 C410.65,60.5 416.15,62.2 416.15,68.6 C416.15,71.4 414.55,74.6 410.75,75.6 L410.75,75.8 C415.35,76.7 417.65,79.1 417.65,83.4 C417.65,90.1 411.85,93 404.85,93 L392.15,93 Z M400.75,73.3 L403.65,73.3 C406.45,73.3 407.75,71.9 407.75,69.9 C407.75,67.9 406.45,67.1 403.65,67.1 L400.75,67.1 L400.75,73.3 Z M400.75,86.4 L404.25,86.4 C407.65,86.4 409.25,85.1 409.25,82.7 C409.25,80.3 407.65,79.3 404.25,79.3 L400.75,79.3 L400.75,86.4 Z M436.45,93.6 C427.45,93.6 421.35,87.3 421.35,76.6 C421.35,65.9 427.45,59.9 436.45,59.9 C445.45,59.9 451.55,65.95 451.55,76.6 C451.55,87.3 445.45,93.6 436.45,93.6 Z M436.45,86.2 C440.35,86.2 442.75,82.5 442.75,76.6 C442.75,70.7 440.35,67.3 436.45,67.3 C432.55,67.3 430.15,70.7 430.15,76.6 C430.15,82.5 432.55,86.2 436.45,86.2 Z M454.25,93 L463.45,93 L465.85,87.2 C466.55,85.5 467.25,83.8 467.95,81.8 L468.15,81.8 C468.95,83.8 469.65,85.5 470.45,87.2 L473.05,93 L482.65,93 L473.85,76.7 L482.15,60.5 L472.95,60.5 L471.05,65.8 C470.45,67.3 469.75,69.1 469.05,71.2 L468.85,71.2 C467.95,69.1 467.25,67.3 466.55,65.8 L464.35,60.5 L454.75,60.5 L463.05,76.3 L454.25,93 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <ul class="mainFooter__navigation">
+               <li class="mainFooter__navItem">
+                   <a href="">About</a>
+               </li>
+                <li class="mainFooter__navItem">
+                    <a href="">Movies</a>
+                </li>
+                <li class="mainFooter__navItem">
+                    <a href="">Ratings</a>
+                </li>
+                <li class="mainFooter__navItem">
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mainFooter__bottom">
+            <p class="mainFooter__copyright">Designed by Milan Houter. All rights reserved.</p>
+            <ul class="mainFooter__socialList">
+                <li class="mainFooter__socialLink mainFooter__socialLink--facebook">
+                    <a href="#">
+                        <svg viewBox="0 0 41 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+                                <g transform="translate(-2494.000000, -5033.000000)" fill-rule="nonzero" fill="#BABBC3">
+                                    <g transform="translate(0.000000, 4844.000000)">
+                                        <g transform="translate(2494.000000, 189.000000)">
+                                            <g transform="translate(0.000000, 0.936170)">
+                                                <path d="M40.7289925,20.3475196 C40.7289925,9.1101032 31.6112219,0 20.3644962,0 C9.11770406,0 0,9.1101032 0,20.3475196 C0,31.5848696 9.11770406,40.6950392 20.3644962,40.6950392 C31.6112219,40.6950392 40.7289925,31.5848696 40.7289925,20.3475196 Z M15.7149281,20.5516757 L15.7149281,17.4026717 L17.6463161,17.4026717 L17.6463161,15.4982764 C17.6463161,12.9296848 18.4144041,11.0791737 21.2291659,11.0791737 L24.5769231,11.0791737 L24.5769231,14.2207027 L22.2203445,14.2207027 C21.0390142,14.2207027 20.7709827,15.0046061 20.7709827,15.8258843 L20.7709827,17.402618 L24.4032408,17.402618 L23.9077053,20.5516757 L20.7710903,20.5516757 L20.7710903,30.0495602 L17.6463161,30.0495602 L17.6463161,20.5516757 L15.7149281,20.5516757 Z"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mainFooter__socialLink mainFooter__socialLink--pinterest">
+                    <a href="">
+                        <svg viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+                                <g transform="translate(-2551.000000, -5033.000000)" fill-rule="nonzero" fill="#BABBC3">
+                                    <g transform="translate(0.000000, 4844.000000)">
+                                        <g transform="translate(2494.000000, 189.000000)">
+                                            <g transform="translate(0.000000, 0.936170)">
+                                                <path d="M77.7106501,0 C66.4638579,0 57.3461538,9.1101032 57.3461538,20.3475196 C57.3461538,31.5848696 66.4638579,40.6950392 77.7106501,40.6950392 C88.9573757,40.6950392 98.0751463,31.5848696 98.0751463,20.3475196 C98.0751463,9.1101032 88.9573757,0 77.7106501,0 Z M79.9150156,25.5755424 C78.6938811,25.5755424 77.544829,24.9017161 77.1498069,24.136284 C77.1498069,24.136284 76.4933985,26.7956589 76.3537153,27.3089322 C76.1193802,28.1763823 75.6672861,29.0423759 75.2481826,29.7282328 C74.650412,30.5086089 73.9609591,29.9293557 73.8783479,29.2179268 C73.8513508,28.42552 73.8798597,27.4875582 74.0766149,26.6336493 C74.2944278,25.697198 75.5320845,20.3439207 75.5320845,20.3439207 C75.5320845,20.3439207 75.1701069,19.6070277 75.1701069,18.5174685 C75.1701069,16.8065755 76.1419498,15.5294347 77.3525554,15.5294347 C78.3814163,15.5294347 78.8785955,16.3188742 78.8785955,17.2628244 C78.8785955,18.3178562 78.2192175,19.8966813 77.8797555,21.3584366 C77.5958536,22.5830848 78.4820616,23.5810922 79.66567,23.5810922 C81.8090267,23.5810922 83.2540214,20.7716304 83.2540214,17.4444177 C83.2540214,14.9141434 81.5837086,13.0216572 78.5451809,13.0216572 C75.1130349,13.0216572 72.9741598,15.6329633 72.9741598,18.5489748 C72.9741598,19.5544812 73.264055,20.2643455 73.7206846,20.8121463 C73.9294805,21.0643052 73.9595013,21.1663232 73.8828834,21.4560308 C73.8288351,21.6691304 73.7041624,22.1793825 73.6530838,22.3819619 C73.5779777,22.6746367 73.3451544,22.7782193 73.0867918,22.6701589 C71.5051916,22.0112766 70.7691957,20.2448699 70.7691957,18.2608858 C70.7691957,14.9816878 73.4803561,11.0496499 78.8560799,11.0496499 C83.1758917,11.0496499 86.0192301,14.2388065 86.0192301,17.662049 C86.020688,22.1928158 83.5528797,25.5755424 79.9150156,25.5755424 Z"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mainFooter__socialLink mainFooter__socialLink--twitter">
+                    <a href="">
+                        <svg viewBox="0 0 42 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+                                <g transform="translate(-2608.000000, -5034.000000)" fill-rule="nonzero" fill="#BABBC3">
+                                    <g transform="translate(0.000000, 4844.000000)">
+                                        <g transform="translate(2494.000000, 189.000000)">
+                                            <g transform="translate(0.000000, 0.936170)">
+                                                <path d="M134.677757,0.273552442 C123.430722,0.273552442 114.313261,9.38341279 114.313261,20.6210721 C114.313261,31.8587313 123.430722,40.9685917 134.677757,40.9685917 C145.924792,40.9685917 155.042253,31.8587313 155.042253,20.6210721 C155.042253,9.38341279 145.924792,0.273552442 134.677757,0.273552442 Z M142.918634,17.8177041 C142.924773,17.9715723 142.927976,18.1257071 142.927976,18.2806419 C142.927976,23.8481629 138.687866,29.6068858 131.592282,29.6068858 C129.423253,29.6068858 127.311338,28.9884797 125.484998,27.8180683 C125.446832,27.7938014 125.431086,27.746601 125.446298,27.7042005 C125.461511,27.6620668 125.504481,27.6359332 125.548518,27.6409999 C125.85491,27.6775336 126.168241,27.6956671 126.47917,27.6956671 C128.166726,27.6956671 129.76434,27.1743287 131.115613,26.1852524 C129.495847,26.0487177 128.10374,24.953507 127.603051,23.3910918 C127.592642,23.3585581 127.600115,23.3230911 127.622534,23.2974909 C127.64522,23.2718906 127.679916,23.2606905 127.71301,23.2668239 C128.161922,23.3518914 128.618307,23.3574915 129.058145,23.2860241 C127.387669,22.7673524 126.213612,21.2038705 126.213612,19.4238531 L126.214146,19.3721193 C126.214947,19.3382523 126.233362,19.3073186 126.26272,19.2905185 C126.291812,19.2734516 126.328109,19.273185 126.357467,19.2897185 C126.793034,19.5313208 127.275041,19.6865223 127.769591,19.7459896 C126.809582,18.9814488 126.245906,17.8225041 126.245906,16.5827587 C126.245906,15.8675517 126.435399,15.1646115 126.794102,14.5499389 C126.810115,14.5224719 126.838406,14.5048718 126.869899,14.5024717 C126.901659,14.4992717 126.932352,14.5131385 126.952369,14.5376721 C128.917226,16.9456956 131.807397,18.4283767 134.898003,18.6190452 C134.846493,18.3598427 134.820338,18.0926401 134.820338,17.8230375 C134.820338,15.5934157 136.635735,13.779798 138.866951,13.779798 C139.963876,13.779798 141.02397,14.2302024 141.783811,15.0174101 C142.640266,14.8430084 143.456154,14.5283387 144.209857,14.0819343 C144.244286,14.0614008 144.287522,14.0646008 144.319282,14.0894011 C144.350242,14.114468 144.363053,14.1560684 144.350776,14.1944687 C144.09536,14.9926099 143.59734,15.6888833 142.928242,16.1915549 C143.558374,16.0819538 144.169823,15.8968854 144.75138,15.6390162 C144.790346,15.6211493 144.836519,15.6323494 144.864542,15.6651498 C144.892299,15.6982167 144.894701,15.7454172 144.870681,15.7811509 C144.340901,16.5734253 143.684347,17.2584986 142.918634,17.8177041 Z"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mainFooter__socialLink mainFooter__socialLink--linkedin">
+                    <a href="">
+                        <svg viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+                                <g transform="translate(-2665.000000, -5035.000000)" fill-rule="nonzero" fill="#BABBC3">
+                                    <g transform="translate(0.000000, 4844.000000)">
+                                        <g transform="translate(2494.000000, 189.000000)">
+                                            <g transform="translate(0.000000, 0.936170)">
+                                                <path d="M191.424772,1.15906788 C180.177737,1.15906788 171.060276,10.2689282 171.060276,21.5065875 C171.060276,32.7442468 180.177737,41.8541071 191.424772,41.8541071 C202.671807,41.8541071 211.789268,32.7442468 211.789268,21.5065875 C211.789268,10.2689282 202.671807,1.15906788 191.424772,1.15906788 Z M187.341626,29.6073294 L183.642437,29.6073294 L183.642437,17.71523 L187.341626,17.71523 L187.341626,29.6073294 L187.341626,29.6073294 Z M185.492839,16.0896428 C184.30716,16.0896428 183.347363,15.1293009 183.347363,13.9462242 C183.347632,12.7642236 184.30716,11.8038816 185.492839,11.8038816 C186.675287,11.8038816 187.636431,12.7642236 187.636431,13.9462242 C187.636431,15.1295699 186.675018,16.0896428 185.492839,16.0896428 Z M201.196357,29.6073294 L197.500129,29.6073294 L197.500129,23.8240267 C197.500129,22.4448466 197.474552,20.6710386 195.577304,20.6710386 C193.653402,20.6710386 193.357521,22.1731532 193.357521,23.7242265 L193.357521,29.6070604 L189.661562,29.6070604 L189.661562,17.71523 L193.209446,17.71523 L193.209446,19.3402791 L193.259253,19.3402791 C193.753286,18.4052235 194.959426,17.4195953 196.759214,17.4195953 C200.50498,17.4195953 201.196357,19.8825898 201.196357,23.0845365 L201.196357,29.6073294 Z"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+    </footer>
+    <script src="js/plugins/jquery-3.2.1.min.js"></script>
+    <script src="https://use.fontawesome.com/c873fc24b7.js"></script>
+    <script src="js/plugins/parallax.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
