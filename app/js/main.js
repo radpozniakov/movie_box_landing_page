@@ -1,17 +1,15 @@
 $(function (){
   var initialState = {
-    render: function () {
-      var windowState =  { height: $(window).height()};
-      try{
-        var introSection = $('.introSection');
-        var backgroundURL = introSection.data("bg");
-        if(windowState.height <= 560 ){
-          introSection.height(560);
-        }else{
-          introSection.height(windowState.height);
-        }
+    heightWindow: $(window),
+    introPage: $('#intro-page'),
 
-        introSection.parallax({imageSrc: backgroundURL, positionX: '0px'});
+    render: function() {
+      var windowState = {
+        height: this.heightWindow.height(),
+      };
+      try{
+        this.introPage.height(windowState.height);
+
       }catch(e){
         console.log(e);
       }
@@ -22,6 +20,3 @@ $(function (){
     initialState.render();
   })
 });
-
-
-

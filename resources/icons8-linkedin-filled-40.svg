@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>icons8-linkedin-filled-40</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="1248" y="40" width="16" height="16" id="rect-1"></rect>
+    </defs>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1249.000000, -41.000000)">
+        <g id="icons8-linkedin-filled-40">
+            <image x="1248" y="40" width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAjFJREFUWAntWE0rRFEYvj5ioSRJhEgWkihZ2GgWsrGxEisNip/gF8ivMDtShI21oqxYkJ1YWCgiG0ry9TyZO3PmnXOPM9OcOdJ96um8H+ee95n33Dv3dIMgxj/vQIXm9zGWBKfAHrAKdIkPLH4J7oIp8BOMBMVtgV+eyNq6piH8gzkMvsSFdWdDMRwrVQf2tPB9uDNqUSmwSU16spvVulKgmvsTdrWlCj5pB+AzOAK2gGWBjcB3KEmAx2lFdRgPwaG073Sw2eJrKAjFUcwLuEmjHLAR2AkhXULMqPCduTZbXIvq7OAa+AhOgOOgF5ygaviH6Wukhgxstjgz2YdhI/AUwvh+VLmkiFXjtIfTuSOMk2Ar2Ai2gwvgBVg0dFuc0/L0yosYw1tAFhtAYF4GFb8G9gYYXi/HnHo2D4mytpV5jllkFN6Q4A8YBPuiJoVxmy0O5xYzcst1eEVwVZeQMVcCe1HoDOTh8wYcAyX2ETAeTnmBK4HrWJv3ItEBboP1dBQ8wb5VfK3pQiCfVvmebkAsoVHAP34jXAjMOc8p1XUnIB5EjHAhMOrBiIqXXaCxYKFJFx0sVINxfizQ2B6LZNxBiyYZp9gcFvqxwpVYRX0ryBxP4DqsILgsEm3Cz3NtBLJgd96V2YApl50VBPwoQBYEeQ8+FHS1m8n36rJSID+B+caOSQC3nCLlKbdc/h5q53yP1L0fGUuC/IAZ9eJHqqS4w2psTAr89YxY0srxYr478A2yMMHpsLT7nQAAAABJRU5ErkJggg=="></image>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#rect-1"></use>
+        </g>
+    </g>
+</svg>

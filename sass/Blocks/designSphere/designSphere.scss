@@ -1,0 +1,33 @@
+.wrapper{
+  display: grid;
+  @include mod("columns"){
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 60% 40%;
+  }
+  @include mod("column"){
+    grid-template-rows: 1;
+    grid-template-columns: 100%
+  }
+
+}
+
+
+
+
+
+.designSphere{
+  color: white;
+  @include mod("height"){
+  }
+  @include mod("architect"){
+    background-color: #ccc;
+  }
+  @include mod("uiux"){
+    background-color: #ccc;
+  }
+  @include mod("graphic"){
+    background-color: #ccc;
+    grid-row: span 2;
+    border: solid 1px;
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>icons8-twitter-40</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="1287" y="40" width="16" height="16" id="rect-1"></rect>
+    </defs>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1288.000000, -42.000000)">
+        <g id="icons8-twitter-40">
+            <image x="1287" y="40" width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAqFJREFUWAntlztoFUEUhq+PKD7BiCiiCUFIlcLKwhgUCQEVX52xCYKCSRqxsDJCynQWWqWx0E4QBS1SaFBRFAS1UQtzUTERC41ogq+o348MbCYzu3vnzqbaAx+7c15zdmZ2d6ZSKaUcgXIEUkdgUao1nnEBqdbAX5iJl7a+TCrqANyEn6DixEs4CyvAllYUm2yl3V6L4rCtrLHdiP8ImKJc1zfYt4IK3Q9XoAoNkCpnsH6H3alefuNSTA/AVZStm8ZPfUmvqd8DmXILDwUo+GCm91yHc6jsQrLaWgLHYSOchJXglRdYTMLf3Gu95H2ZNHqTiXiTJ+taJWYM/sAhSJXHWO2E99C1pUb9N3Y6Yu1cvrYGozdHH5XLnk5+ob8ILSlJTnhifUUZ/Tfi9qXknWXam9GJnvQaHAF7rYQWqFlzir5VtixEcRfabYOjrWKfwSOYgA3QD7XKfQI68gYtw1HTOA5mCoq+6mPuFI2WLU9QDIDWol7/+ZC3vk4WOwwf0B1z6ItUvfIld43gdZ9zgfqHteTWm/kOil53Jv9n+sr8/9oPsAuF+UeaREVdL9md52134vgeiirM5N2ZtyCXn6b7NLwGkzDm9amr07y67Th+Au1qYhaVzKUNbbDoLzMKyYQx728HV5YI3My9PqIxC1OuKdgCUaSJLPrXxiyyJ0pliSTasHbDDdA3UpuE0ILPE1uYrCLzBZiBkAKHiXPtoFDXJ6sJPwWh61Fb+UGoqzhtHHS4Fs2wDfrgKnyBkBFTjDYfIYcvwmaLNg5HYQxCi0nG/SCPjgjrIKosIVsPjIKmJtlpnvuPxAxBM9QtWWuihR66YAfoCLAeloMRFVyF56CN7h3Q+UIHrCiSVaCrE519VaQ+NV9dDqWuHIFyBOZxBP4BEWbjVUj0dIgAAAAASUVORK5CYII="></image>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#rect-1"></use>
+        </g>
+    </g>
+</svg>
