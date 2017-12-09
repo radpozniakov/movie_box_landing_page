@@ -42,7 +42,8 @@
 // Code
 
 //Font-Family
-$Main-Font: 'Lato', sans-serif;
+$LatoBold: 'latobold', sans-serif;
+$LatoBlack: 'latoblack', sans-serif;
 $Secondary-Font: 'Merriweather', serif;
 
 
@@ -52,6 +53,23 @@ $Secondary-Font: 'Merriweather', serif;
   url('../fonts/merriweather-light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'latobold';
+  src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+  url('../fonts/lato-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latoblack';
+  src: url('../fonts/lato-black-webfont.woff2') format('woff2'),
+  url('../fonts/lato-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 

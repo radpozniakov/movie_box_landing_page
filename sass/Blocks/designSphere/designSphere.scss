@@ -16,9 +16,6 @@
 .designSphere{
   color: white;
   padding: 2.1rem 30% 2.1rem 12.3%;
-  @media screen and (max-width: 768px){
-    padding: 2.1rem 10% 2.1rem 12.3%;
-  }
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -27,12 +24,17 @@
   background-position-y: 39%;
   background-size: 60%;
   @media screen and (max-width: 768px){
+    padding: 2.1rem 10% 2.1rem 12.3%;
+  }
+  @media screen and (max-width: 768px){
     height: 100vh;
+  }
+  @media screen and (min-width: 1920px){
+    background-size: 768px;
   }
   @media all and (max-aspect-ratio: 3.99/3){
     height: 100vh;
   }
-
   //mobile portrait
   @media screen and (orientation: portrait) and (max-width: 414px){
     background-position-y: 25%;
@@ -48,15 +50,19 @@
     background-size: 40%;
   }
 
+  //============ MODIFICATORS ===================
+  @include mod("large"){
+    font-size: 0.91rem;
+  }
   @include mod("small"){
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding: 1rem 8%;
     @media all and (max-aspect-ratio: 4/3){
-      font-size: 1rem;
+      font-size: 0.91rem;
       padding: 2.1rem 30% 2.1rem 12.3%;
     }
     @media screen and (max-width: 768px){
-      font-size: 1rem;
+      font-size: 0.91rem;
       padding: 2.1rem 10% 2.1rem 12.3%;
     }
     @media screen and (orientation: portrait) and (max-width: 414px){
@@ -71,6 +77,9 @@
       background-position-x: 90%;
       background-position-y: center;
       background-size: 40%;
+    }
+    @media screen and (min-width: 1920px){
+      background-size: 400px;
     }
 
   }
@@ -87,8 +96,9 @@
     background-image: url("../img/group3.png");
     background-color: #071147;
   }
+  //============ Elements ===================
   @include el("markLead"){
-    @include fontMix($Main-Font, 0.65em, 700, white);
+    @include fontMix($LatoBold, 0.65em, normal, white);
     text-transform: uppercase;
     letter-spacing: 1.3px;
     margin-bottom: 2.4rem;
@@ -103,13 +113,12 @@
       background-color: white;
     }
   }
-
   @include el("title"){
-    @include fontMix($Main-Font, 2em, 900, white);
+    @include fontMix($LatoBlack, 2em, normal, white);
     padding-bottom: 0.9rem;
   }
   @include el("description"){
-    @include fontMix($Secondary-Font, 1em, 300, white);
+    @include fontMix($Secondary-Font, 1.2em, normal, rgba(255, 255, 255, 0.7));
     line-height: 1.6rem;
   }
 }
