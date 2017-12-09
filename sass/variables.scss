@@ -2,9 +2,9 @@
  $Dark-blue: #494C62;
 
  //Font-Family
- $Main-Font: 'Source Sans Pro', sans-serif;
+ $Main-Font: 'Lato', sans-serif;
 
- @mixin font($family-type, $size: 1rem, $weight : normal, $color :  $Dark){
+ @mixin fon($family-type, $size: 1rem, $weight : normal, $color :  #ccc){
    font: {
      family: $family-type;
      size: $size;

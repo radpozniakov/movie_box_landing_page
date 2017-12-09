@@ -41,8 +41,21 @@
 // Close
 // Code
 
+//Font-Family
+$Main-Font: 'Lato', sans-serif;
+$Secondary-Font: 'Merriweather', serif;
 
-@mixin font($family-type, $size: 1rem, $weight : normal, $color :  $Dark){
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather-light-webfont.woff2') format('woff2'),
+  url('../fonts/merriweather-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@mixin fontMix($family-type, $size: 1rem, $weight : normal, $color :  #ccc){
   font: {
     family: $family-type;
     size: $size;
