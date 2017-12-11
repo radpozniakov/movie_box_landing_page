@@ -14,7 +14,9 @@
 }
 
 .designSphere{
+  text-decoration: none !important;
   color: white;
+  position: relative;
   padding: 2.1rem 30% 2.1rem 12.3%;
   display: flex;
   flex-direction: column;
@@ -23,6 +25,13 @@
   background-position-x: center;
   background-position-y: 39%;
   background-size: 60%;
+  transition: filter 0.25s ease-out;
+  &:hover{
+    filter: contrast(115%);
+    small,h2,p{
+      transform: translateY(-2rem);
+    }
+  }
   @media screen and (max-width: 768px){
     padding: 2.1rem 10% 2.1rem 12.3%;
   }
@@ -35,13 +44,14 @@
   @media all and (max-aspect-ratio: 3.99/3){
     height: 100vh;
   }
-  //mobile portrait
   @media screen and (orientation: portrait) and (max-width: 414px){
     background-position-y: 25%;
     background-size: 80%;
     padding: 2rem;
   }
-  //mobile landscape
+  @media screen and (max-width: 600px) and (min-height: 1000px){
+    height: 33.333vh;
+  }
   @media screen and (orientation: landscape) and (max-height: 420px){
     justify-content: center;
     padding: 0 50% 0 2rem;
@@ -49,10 +59,12 @@
     background-position-x: 90%;
     background-size: 40%;
   }
-
   //============ MODIFICATORS ===================
   @include mod("large"){
     font-size: 0.91rem;
+    @media screen and (min-width: 1920px){
+      font-size: 1.2rem;
+    }
   }
   @include mod("small"){
     font-size: 0.7rem;
@@ -80,8 +92,8 @@
     }
     @media screen and (min-width: 1920px){
       background-size: 400px;
+      font-size: 1rem;
     }
-
   }
   @include mod("architect"){
     background-image: url("../img/group.png");
@@ -103,6 +115,8 @@
     letter-spacing: 1.3px;
     margin-bottom: 2.4rem;
     position: relative;
+    z-index: 2;
+    transition: transform 0.25s ease-out;
     &:after{
       content: "";
       position: absolute;
@@ -116,9 +130,13 @@
   @include el("title"){
     @include fontMix($LatoBlack, 2em, normal, white);
     padding-bottom: 0.9rem;
+    transition: transform 0.25s ease-out;
+    z-index: 2;
   }
   @include el("description"){
     @include fontMix($Secondary-Font, 1.2em, normal, rgba(255, 255, 255, 0.7));
-    line-height: 1.6rem;
+    line-height: 1.6em;
+    z-index: 2;
+    transition: transform 0.25s ease-out;
   }
 }

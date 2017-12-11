@@ -44,13 +44,24 @@
 //Font-Family
 $LatoBold: 'latobold', sans-serif;
 $LatoBlack: 'latoblack', sans-serif;
+$LatoLight: 'latolight', sans-serif;
 $Secondary-Font: 'Merriweather', serif;
+$Merriweather-regular: 'Merriweather-regular', serif;
+
 
 
 @font-face {
   font-family: 'Merriweather';
   src: url('../fonts/Merriweather/merriweather-light-webfont.woff2') format('woff2'),
   url('../fonts/Merriweather/merriweather-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather-regular';
+  src: url('../fonts/Merriweather/merriweather-regular-webfont.woff2') format('woff2'),
+  url('../fonts/Merriweather/merriweather-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -69,7 +80,13 @@ $Secondary-Font: 'Merriweather', serif;
   url('../fonts/Lato/lato-black-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
+}
+@font-face {
+  font-family: 'latolight';
+  src: url('../fonts/Lato/lato-light-webfont.woff2') format('woff2'),
+  url('../fonts/Lato/lato-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
