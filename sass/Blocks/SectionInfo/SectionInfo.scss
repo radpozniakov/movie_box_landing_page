@@ -1,0 +1,21 @@
+.sectionInfo{
+  font-size: 1rem;
+  width: 62%;
+  margin: 3rem auto 1rem;
+  padding: 2.9rem 0 1rem;
+  @include el('title'){
+    @include fontMix($LatoBlack, 1.75rem, normal, #000);
+    padding-bottom: 0.9rem;
+    @include mod('large'){
+      @include fontMix($LatoBlack, 2.5rem, normal, #000);
+    }
+  }
+  @include el('description'){
+    @include fontMix($Secondary-Font, 0.875rem, normal, #000);
+    padding-bottom: 0.9rem;
+    line-height: 1.5rem;
+    @include mod('short'){
+      padding-right:40%;
+    }
+  }
+}
