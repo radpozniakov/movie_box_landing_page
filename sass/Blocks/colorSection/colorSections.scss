@@ -40,6 +40,11 @@
       background-repeat: no-repeat;
       transform: scale(1.16);
       background-position: right;
+      @media screen and (max-width: 800px) {
+        background-position: center;
+        padding-top: 30%;
+        transform: scale(1.36);
+      }
     }
   }
 }
