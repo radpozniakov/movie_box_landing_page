@@ -30,6 +30,9 @@
     padding-bottom: 0.9rem;
     line-height: 1.5rem;
     padding-right:20%;
+    @media screen and (max-width: 980px){
+      padding-right:0;
+    }
     @include mod('short'){
       padding-right:40%;
       @media screen and (max-width: 980px){
@@ -82,10 +85,25 @@
   }
 
   @include el('carousel'){
-
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media screen and (max-width: 520px){
+      justify-content: center;
+    }
   }
   @include el('carouselItem'){
-
+    width: 23%;
+    height: auto;
+    @media screen and (max-width: 1366px){
+      width: 48%;
+    }
+    @media screen and (max-width: 520px){
+      width: 100%;
+    }
+    img{
+      max-width: 100%;
+    }
   }
 
 }

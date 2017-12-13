@@ -1,7 +1,15 @@
 .colorSection{
-  background-color: #3F51B5;
   background-size: 30rem;
   margin-bottom: 5.6rem;
+  @include mod('graphDesign'){
+    background-color: $graph-color;
+  }
+  @include mod('uxArch'){
+    background-color: $ux-color;
+  }
+  @include mod('uxuiDesign'){
+    background-color: $uxui-color;
+  }
   @include el("content"){
     width: 62%;
     max-width: 1100px;
@@ -14,6 +22,9 @@
     @media screen and (max-width: 800px) {
       flex-direction: column-reverse;
     }
+    @media screen and (max-width: 400px){
+      width: 90%;
+    }
   }
   @include el('title'){
     @include fontMix($LatoLight,0.9rem, normal, #E5E8FC);
@@ -21,9 +32,10 @@
     padding-bottom: 1.2rem;
   }
   @include el('description'){
+    padding-right: 2rem;
     @include fontMix($Merriweather-regular, 1.125rem, normal, white);
     @media screen and (max-width: 800px) {
-      padding-right: 0%;
+      padding-right: 0;
     }
   }
   @include el('img'){
@@ -36,15 +48,22 @@
       width: 100%;
     }
     @include mod('img'){
-      background-image: url('../img/group-single.png'); background-size: contain;
       background-repeat: no-repeat;
       transform: scale(1.16);
       background-position: right;
       @media screen and (max-width: 800px) {
         background-position: center;
-        padding-top: 30%;
-        transform: scale(1.36);
+        transform: scale(1.56);
       }
+    }
+    @include mod('uxArch'){
+      background-image: url('../img/group-single.png'); background-size: contain;
+    }
+    @include mod('uiux'){
+      background-image: url('../img/single-uiux.png'); background-size: contain;
+    }
+    @include mod('graph'){
+      background-image: url('../img/single-graph.png'); background-size: contain;
     }
   }
 }
