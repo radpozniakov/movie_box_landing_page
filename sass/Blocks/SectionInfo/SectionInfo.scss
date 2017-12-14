@@ -15,6 +15,27 @@
     margin-bottom:1rem!important;
     margin-top:2rem!important;
   }
+
+  @include mod('carousel'){
+    width: 100%;
+    max-width: 100%;
+    h2, p{
+      width: 62%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding-right: 8%;
+    }
+    p{
+      margin-bottom:1rem;
+    }
+    @media all and (max-width: 980px) {
+      h2, p{
+        width: 80%;
+      }
+    }
+  }
+
+
   @include el('title'){
     @include fontMix($LatoBlack, 1.75rem, normal, #000);
     padding-bottom: 0.9rem;
@@ -85,24 +106,31 @@
   }
 
   @include el('carousel'){
-  display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    @media screen and (max-width: 520px){
-      justify-content: center;
+    display: flex;
+    justify-content: flex-start;
+    @media all and (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: flex-start;
     }
   }
   @include el('carouselItem'){
-    width: 23%;
-    height: auto;
-    @media screen and (max-width: 1366px){
-      width: 48%;
+    width: 20%;
+    margin-right: 1rem;
+    @media all and (max-width: 768px) {
+      width: 45%;
     }
-    @media screen and (max-width: 520px){
-      width: 100%;
+    @media all and (max-width: 480px) {
+      width: 90%;
+    }
+    &:last-child{
+      margin-right:0;
     }
     img{
       max-width: 100%;
+      transition: filter 0.25s ease-out;
+      &:hover{
+        filter: contrast(120%);
+      }
     }
   }
 
